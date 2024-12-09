@@ -43,7 +43,7 @@ class SightAssist:
         """Setup API configurations and validations"""
         try:
             # Use the provided API key directly
-            self.gemini_api_key = "AIzaSyAHB225GIDguo8o7KrIaYYvuJjLVntOcSE"
+            self.gemini_api_key = "Your Google API"
             if not self.gemini_api_key:
                 raise ValueError("GEMINI_API_KEY not found in environment variables")
             
